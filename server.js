@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/api/data', (req, res) => {
   res.json({
-    data: 'all set'
+    data: 'all set stagin'
   });
 });
 
