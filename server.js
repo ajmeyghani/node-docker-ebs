@@ -24,7 +24,7 @@ app.use(morgan('combined', {stream: accessLogStream}));
 
 app.get('/api/data', (req, res) => {
   res.json({
-    data: 'all set stagin 2'
+    data: 'all set prod'
   });
 });
 
